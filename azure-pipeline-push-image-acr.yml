@@ -6,7 +6,7 @@ trigger:
 variables:
   # Variables de entorno
   ACR_NAME: 'acrgrupo6' # Colocar el nombre de tu ACR
-  IMAGE_NAME: 'grupo6_img' # Colocar el Nombre de Imagen
+  IMAGE_NAME: 'grupo6_nginx_img' # Colocar el Nombre de Imagen
   SERVICE_CONNECTION_NAME: 'service_con_grupo6' # Colocar nombre del Service Connection ubicado en Docker Registry-- Azure Container Registry
 
 jobs:
